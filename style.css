@@ -1,1 +1,110 @@
-Zalner
+@font-face {
+  font-family: "RobotoSlab";
+  src: url("assets/fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+  color: black;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+}
+
+.header {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: orange;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myPhoto {
+  width: 200px;
+  height: 250px;
+  border-radius: 50px;
+  box-shadow: 3px 3px orange;
+}
+
+.section-text {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: orange;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+link:hover {
+  text-decoration: underline;
+}
+
+.rs-logo {
+  height: 256;
+  width: 256;
+}
